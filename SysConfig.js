@@ -20,31 +20,17 @@ const SysConfig = {
     /**
      * 用户登录（统一用户登录）
      */
-    LoginAuthURL: 'http://192.168.1.5:181', //'http://192.168.1.18:8001',
-    // LoginAuthURL: 'http://192.168.1.18:8001',
+    LoginAuthURL: 'http://192.168.1.5:181',
     /**
      * Axios普通WebAPI的BaseURL
      * 全局默认的http请求地址（一般与主hprose相同或不同）;文件上传地址
      */
     DefaultWebAPI: '',
     /**
-     * 默认HproseAPI的服务地址
-     */
-    //DefaultHproseAPI: 'http://192.168.1.109:1002/ImageAdmin'
-    /**
      * Hprose在线测试地址
      */
     HproseTestURL: 'http://192.168.1.29'
-    //*********其他Hprose或API服务***********/
-    // //数据管理
-    // DataHproseAPI: 'http://192.168.1.109:1003/DataManage',
-    // //数据集管理
-    // DatasetHproseAPI: 'http://192.168.1.109:1001/DataSource',
-    // //父级网站地址
-    // ParentWebsiteURL: 'http://localhost:3001'
 
-    //统一登录界面
-    // UILoginURL: 'http://192.168.1.5:180#/userlogin'
   },
   //#endregion
 
