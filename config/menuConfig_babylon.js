@@ -27,6 +27,12 @@ const menuConfig2D = [
             info: '入门最简单的第一个示例'
           },
           {
+            name: '360全景图',
+            icon: '/BabylonTS/img/01_360ts.png',
+            path: '/BabylonTS/index.html#01_360photo',
+            info: '360全景——使用BABYLON.PhotoDome'
+          },
+          {
             name: 'Mesh Builder',
             icon: '/BabylonTS/img/02ts.png',
             path: '/BabylonTS/index.html#02_MeshBuilderDemo',
